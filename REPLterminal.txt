@@ -1,0 +1,81 @@
+TERMINAL LESSON
+
+HOW TO USE TERMINAL IN NODEJS
+
+REPL stands for Read Eval Print Loop and it represents a computer environment like a
+Windows console or Unix/Linux shell where a command is entered and the system
+responds with an output in an interactive mode.
+
+/* 
+📝 Read - Reads user's input, parses the input into JavaScript data-structure, and stores in memory.
+📝 Eval - Takes and evaluates the data structure.
+📝 Print - Prints the result.
+📝 Loop - Loops the above command until the user presses ctrl-c twice
+*/
+
+USE VARIABLE
+
+If var keyword is not used, then the value is stored in the variable and printed. 
+Whereas if var keyword is used, then the value is stored but not printed. You can print variables using
+try this to terminal
+
+SAMPLE IN TERMINAL 
+$ node
+> x = 10 
+10
+> var y = 10
+undefined
+> x + y
+20
+> console.log("Hello World")
+Hello Workd
+undefined
+
+MULTILINE EXPRESSION
+$ node
+> var x = 0
+undefined
+> do {
+... x++;
+... console.log("x: " + x);
+... } while ( x < 5 );
+x: 1
+x: 2
+x: 3
+x: 4
+x: 5
+undefined
+>
+
+
+Stopping REPL
+use ctrl-c twice
+
+REPL COMMANDS
+ ctrl + c - terminate the current command.
+ ctrl + c twice - terminate the Node REPL.
+ ctrl + d - terminate the Node REPL.
+ Up/Down Keys - see command history and modify previous commands.
+ tab Keys - list of current commands.
+ .help - list of all commands.
+ .break - exit from multiline expression.
+ .clear - exit from multiline expression.
+ .save filename - save the current Node REPL session to a file.
+ .load filename - load file content in current Node REPL session.
+
+
+
+NPM
+
+Two Main Functionalities
+1. Online respositories for node.js packages/modules which is searchable on search.nodejs.org
+2. Command utility to install nodejs packages, do version management and dependencies of node.js packages
+
+npm install <packages> = the way how to install
+npm uninstall <packages> = the way how to uninstall
+-g = global
+-l = local
+npm ls -g = list the global packages
+npm ls -l = list the local packages
+
+
