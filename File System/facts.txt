@@ -1,0 +1,6 @@
+//FILE SYSTEM
+
+⭕Node implements File I/O using simple wrappers around standard POSIX functions.
+⭕Node File System (fs) module can be imported using the following syntax: 
+----- Var fs = require("fs") ------------
+

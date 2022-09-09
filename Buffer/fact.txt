@@ -1,0 +1,10 @@
+// 9 BUFFERS
+Pure JavaScript is Unicode friendly, but it is not so for binary data. 
+While dealing with TCP streams or the file system, it's necessary to handle octet streams. 
+Node provides Bufferclass which provides instances to store raw data similar to an array of integers 
+["jehu"] = [74,69,88,85] in Anscii utf-8 binary but
+corresponds to a raw memory allocation outside the V8 heap. 
+
+
+for referrence read more in page 42
+https://matfuvit.github.io/UVIT/predavanja/literatura/TutorialsPoint%20node.js.pdf
