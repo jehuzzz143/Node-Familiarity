@@ -14,11 +14,11 @@ created. It defaults to 0666, readable and writeable.
 var fs = require("fs");
 // Asynchronous - Opening File
 console.log("Going to open file!");
-fs.open('newInput.txt', 'w', function(err, fd) { //create new empty file
+fs.open('newInput1.txt', 'w', function(err, fd) { //create new empty file
  if (err) {
  return console.error(err);
  }
-
+ console.log(fd);
  console.log("File opened successfully!");
 });
 

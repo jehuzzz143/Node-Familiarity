@@ -4,3 +4,6 @@
 ⭕Node File System (fs) module can be imported using the following syntax: 
 ----- Var fs = require("fs") ------------
 
+ANOTHER FUNCTIONAL METHOD REFERENCES
+https://matfuvit.github.io/UVIT/predavanja/literatura/TutorialsPoint%20node.js.pdf PAGE 63
+
